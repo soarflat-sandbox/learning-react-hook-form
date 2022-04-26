@@ -3,6 +3,7 @@ import Example0102 from './01-get-started/02-RegisterFields';
 import Example0103 from './01-get-started/03-ApplyValidation';
 import Example0104 from './01-get-started/04-HandleErrors';
 import Example0105 from './01-get-started/05-SchemaValidation';
+import { LoginForm, RegisterForm } from './features/auth/components';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Example0103 />
       <Example0104 />
       <Example0105 />
+      <LoginForm />
+      <RegisterForm />
     </>
   );
 }
