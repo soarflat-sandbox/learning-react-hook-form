@@ -27,7 +27,7 @@ function Example01() {
 
   return (
     <>
-      <h1>Example01 basic usage example</h1>
+      <h2>01-get-started / 01 basic usage example</h2>
       {/* handleSubmit を実行することで、バリデーションが実行される。
       そして、バリデーションが成功したら、onSubmit が実行される。 */}
       <form onSubmit={handleSubmit(onSubmit)}>
